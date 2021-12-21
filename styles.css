@@ -97,7 +97,7 @@ a {
 
 /* Стили для меню */
 .navbar .wrapper {
-    top: 165px;
+    top: 155px;
     left: 0;
     right: 0;
 }
@@ -106,17 +106,18 @@ a {
         width: 100%;
         flex-direction: column;
         position: absolute;
+		z-index: 2501;
     }
 }
 .navbar, .navbar .punktmenu {
     background-color: rgba(139, 166, 41, 0.85); /* #8BA629 */
 }
 .navbar, .navbar .wrapper a {
-    height: 35px;
+    height: 45px;
 }
 @media (min-width: 768px) {
     .navbar .punktmenu {background-color: transparent}
-    .navbar, .navbar .wrapper a {height: 60px}
+    .navbar, .navbar .wrapper a {height: 50px}
 }
 .navbar .wrapper a {
     display: none;
@@ -360,11 +361,11 @@ a {
 #map {
     position: relative;
     overflow: hidden;
-    margin-top: 80px;
+    margin-top: 55px;
 
 }
 #map p:nth-child(2) {
-	margin-top: 35px;
+	margin-top: 30px;
 }
 
 .ymaps-2-1-79-map {
@@ -462,7 +463,7 @@ a {
 		color: transparent;
 	}
 	100% {
-		height: 35px;
+		height: 45px;
 		color: white;
 		/* opacity: 1; transform: scale(1); */
 	 }
